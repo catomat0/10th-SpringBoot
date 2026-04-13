@@ -1,0 +1,43 @@
+# Gradle 빌드 결과물 및 캐시
+.gradle/
+build/
+
+# Gradle wrapper는 커밋 대상 (빌드에 필요)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# 로그
+*.log
+logs/
+
+# 환경변수 (민감정보)
+.env
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
